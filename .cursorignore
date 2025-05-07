@@ -1,0 +1,8 @@
+# Arquivos e diretórios ignorados pelo Cursor
+node_modules/
+vendor/
+.git/
+.github/
+storage/
+bootstrap/cache/
+*.log 

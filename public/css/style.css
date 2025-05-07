@@ -1,0 +1,96 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos */
+body {
+    background-color: #ffd1dc;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navegação */
+.navbar {
+    background-color: #ff69b4 !important;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: #ffd1dc !important;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1;
+    padding: 2rem 0;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+/* Badges */
+.badge {
+    background-color: #ff1493;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+
+/* Alertas */
+.alert {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+}
+
+.alert-danger {
+    background-color: #ff1493;
+    color: white;
+    border: none;
+} 
